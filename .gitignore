@@ -18,5 +18,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 node_modules
-titan_backend\node_modules
-public\core
+titan_backend\node_modules #
+public\core #
