@@ -1,6 +1,6 @@
 <?php
 
-    $connect = mysqli_connect('localhost', 'Denzare', 'Devon145', 'titan');
+    $connect = mysqli_connect('***', '***', '***', '***');
 
     if (!$connect) {
         die('Error connect to DataBase');
