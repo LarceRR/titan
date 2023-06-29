@@ -18,7 +18,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 node_modules
-titan_backend/api/auth
-titan_backend/api/imp
-titan_backend/.env
 public\core #
