@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body,#root {
+  height: 100%;
+  background-color: var(--main-container-background);
+}
+
+@media all and (max-width: 1200px) {
+  .main_container {
+    padding: 0px!important;
+    margin-top: 40px!important;
+  }
+}
+
+.main_container {
+  padding: 10px;
+  align-items: flex-start;
+  margin-top: 0px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.light {
+  transform: rotate(45deg);
+  left: 22px;
+  background-color: #FFBE31;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dark {
+  transform: rotate(0deg);
+  background-color: #CECECE;
+  left: 1px;
+}
+
+.light::before {
+  content: "";
+  border-radius: 50%;
+  background-color: #FFD347;
+  width: 22px;
+  height: 100%;
+}
+
+.dark::after {
+  content: "";
+  border-radius: 50%;
+  background-color: rgb(92, 92, 92);
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  top: 3px;
+  right: 9px;
+}
+
+.dark::before {
+  content: "";
+  border-radius: 50%;
+  background-color: rgb(129, 129, 129);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 15px;
+  right: 7px;
+}
+
+.theme {
+  position: relative;
+  top: 1px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.ThemeToggler {
+  position: relative;
+  width: 50px;
+  height: 29px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+}

@@ -1,0 +1,208 @@
+@media all and (max-width: 1200px) {
+  .nav_wrap {
+    display: none!important;
+  }
+  .NavMobile {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--main-container-background);
+    height: 40px;
+    border-bottom: var(--nav-navigator-border);
+    z-index: 2;
+    display: flex!important;
+  }
+}
+
+.navigator {
+  border: var(--nav-navigator-border);
+  position: fixed;
+  gap: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--navigator-background);
+  width: 100px;
+  height: 96%;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.cursor {
+  position: absolute;
+  top: 0px;
+  border-radius: 3px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border: 1px solid #8696c9;
+  background-color: rgb(121, 145, 211);
+  transition: 0.2s ease-in-out;
+}
+
+.home {
+  top: 328px;
+}
+
+.chart {
+  top: 388px;
+}
+
+.weather {
+  top: 448px;
+}
+
+.cctv {
+  top: 507px;
+}
+
+.calendar {
+  top: 613px;
+}
+
+.settings {
+  left: 89px;
+  top: 613px;
+}
+
+.security {
+  top: 651px;
+}
+
+.alarm {
+  left: 89px;
+  top: 651px;
+}
+
+.messanger {
+  top: 757px;
+}
+
+.sys_info {
+  top: 793px;
+}
+
+.NavCursor {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.navigator-buttons-wrapper {
+  gap: 40px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.NavMobile img {
+  width: 30px;
+  height: 30px;
+}
+
+.buttons-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-body button {
+  background-color: unset;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+.navigator-buttons-body:nth-child(3) .buttons-body {
+  flex-flow: row wrap;
+  gap: 18px;
+}
+
+.navigator-buttons-body:nth-child(3) .buttons-body button div {
+  width: 20px;
+  height: 20px;
+}
+
+.navigator-buttons-body:nth-child(1) .buttons-body button div {
+  width: 24px;
+  height: 24px;
+}
+
+.navigator-buttons-body:nth-child(1) .buttons-body {
+  flex-flow: row wrap;
+  gap: 25px;
+}
+
+.navigator-buttons-body:nth-child(2) .buttons-body {
+  gap: 40px;
+}
+
+.navigator-buttons-body:nth-child(4) .buttons-body {
+  gap: 15px;
+}
+
+.buttons-body img {
+  mix-blend-mode: var(--navigator-buttons-color);
+  width: 100%;
+  height: 100%;
+}
+
+.NavBtnImg {
+  background-color: var(--navigator-buttons-color);
+  width: 22px;
+  height: 22px;
+}
+
+.navigator-buttons-body span {
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: var(--text-color);
+  font-size: 10px;
+  height: 40px;
+  opacity: var(--navigator-title-opacity);
+  font-family: GT Thin;
+  text-transform: uppercase;
+}
+
+.navigator-buttons-body {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigator-profile {
+  color: var(--text-color);
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigator-profile img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.NavWrapper {
+  height: 100%;
+}
+
+.nav_wrap {
+  width: 127px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.NavMobile {
+  display: none;
+}

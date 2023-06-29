@@ -1,0 +1,430 @@
+@media all and (max-width: 1200px) {
+    .WiFiRamBlueInfo div {
+        width: 100%;
+    }
+    }
+
+.SystemInfo {
+    gap: 20px;
+    color: var(--text-color);
+    height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 0px;
+}
+
+.OSWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.OSDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.OSDescription span:nth-child(1) {
+    font-size: 28px;
+}
+
+.OSDescription span:nth-child(2) {
+    font-size: 18px;
+    opacity: .6;
+    font-family: GT Thin;
+}
+
+.OSDescription span:nth-child(3) {
+    font-size: 18px;
+    opacity: .6;
+    font-family: GT Regular;
+}
+
+.OSWrapper img {
+    width: 100px;
+    height: 100px;
+}
+
+.SystemInfoButton {
+    align-items: center;
+}
+
+.SystemInfoButton button {
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: var(--text-color);
+    background-color: var(--button-background-color);
+    border: var(--button-border);
+}
+
+.OSWrapper {
+    flex-flow: row wrap;
+}
+
+.GeneralSystemInfo {
+    gap: 20px;
+    flex-flow: row wrap;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MotherboardWrapper {
+    overflow: hidden;
+    background-color: var(--button-background-color);
+    border: var(--button-border);
+    border-radius: 5px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Motherboard-header {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.GeneralCPUMother {
+    gap: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Motherboard-header-name span:nth-child(1) {
+    font-size: 20px;
+}
+
+.Motherboard-header-name span:nth-child(2) {
+    font-size: 15px;
+    opacity: .5;
+}
+
+.Motherboard-footer span {
+    opacity: .5;
+    font-size: 15px;
+    font-family: GT Thin;
+}
+
+.Motherboard-header img {
+    width: 40px;
+    height: 40px;
+}
+
+.Motherboard-header-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Motherboard-footer {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CPUWrapper {
+    overflow: hidden;
+    background-color: var(--button-background-color);
+    border: var(--button-border);
+    border-radius: 5px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CPU, .Motherboard {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.CPU-header {
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.CPU-header-name span:nth-child(1) {
+    font-size: 20px;
+}
+
+.CPU-header-name span:nth-child(2) {
+    font-size: 15px;
+    opacity: .5;
+    overflow: hidden;
+    width: 120px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CPU-footer span {
+    opacity: .5;
+    font-size: 15px;
+    font-family: GT Thin;
+}
+
+.CPU-header-values {
+    display: flex;
+    gap: 20px;
+}
+
+.CPU-header-values div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CPU-header-values div span:nth-child(1) {
+    font-size: 20px;
+}
+
+.CPU-header-values div span:nth-child(2) {
+    font-size: 15px;
+}
+
+.CPU-header img {
+    width: 40px;
+    height: 40px;
+}
+
+.CPU-header-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CPU-footer {
+    padding: 10px 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.CPU-footer span {
+    font-size: 13px;
+}
+
+.DiskInfo, .NetworkInfo, .WiFi, .Bluetooth, .RAM {
+    background-color: var(--system-info-wrapper-background);
+    border: var(--system-info-wrapper-border);
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.DiskItem, .NetworkItem {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--system-info-wrapper-item-background);
+    border: var(--button-border);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.DiskItem img {
+    opacity: .7;
+    width: 35px;
+    height: 35px;
+}
+
+.DisksWrapper, .NetworksWrapper {
+    gap: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Disks, .Networks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.DiskItem-body {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.DiskItem-body span:nth-child(1) {
+    font-size: 16px;
+    font-family: GT Thin;
+    opacity: .6;
+}
+
+.DiskItem-body span:nth-child(3), .RAM-loadWrapper span {
+    font-size: 16px;
+    font-family: GT Thin;
+    opacity: .6;
+}
+
+.Loaded {
+    position: relative;
+    width: 250px;
+}
+
+.DiskItem-body .LoadBody {
+    width: 100%;
+    height: 16px;
+    background-color: #D9D9D9;
+    border-radius: 3px;
+}
+
+.DiskItem-body .LoadLine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.SystemWrapperTitle {
+    font-size: 20px;
+    font-family: GT Thin;
+}
+
+.NetworkItem {
+    gap: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.Network-body {
+    width: 100%;
+}
+
+.Network-header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Network-header-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.Network-header img {
+    opacity: .7;
+    width: 35px;
+    height: 35px;
+}
+
+.NetworkBodyText {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: var(--button-border);
+    padding: 5px 15px;
+}
+
+.NetworkBodyText span:nth-child(2) {
+    font-family: GT Thin;
+    color: gray;
+}
+
+.Network-header-texts span:nth-child(1) {
+    font-size: 20px;
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Network-header-texts span:nth-child(2) {
+    font-size: 17px;
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .5;
+}
+
+.Network-header-texts span:nth-child(3) {
+    font-size: 15px;
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: .3;
+    font-family: GT Thin;
+}
+
+.WiFiRamBlueInfo, .WiFi-Ram-Wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.WiFiRamBlueInfo {
+    flex-flow: row wrap;
+}
+
+.WiFiRamBlueInfo div {
+    flex: 1 0 auto;
+}
+
+.WiFi-Ram-Wrapper {
+    flex-direction: column;
+
+}
+
+.SystemTitleBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SystemWrapperTitleError {
+    width: 200px;
+    text-align: center;
+    font-family: GT Light;
+    color: red;
+}
+
+.RAMWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.RAM-loadWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.RAM-loadBody {
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    height: 22px;
+    background-color: #D9D9D9;
+}
+
+.RAM-load {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #FFB629;
+    filter: drop-shadow(0px 0px 20px #FFB62950);
+    border-radius: 5px;
+}

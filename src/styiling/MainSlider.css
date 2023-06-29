@@ -1,0 +1,57 @@
+@media all and (max-width: 1200px) {
+  .MainSlider {
+    margin-left: unset!important;
+  }
+}
+
+.MainSlider {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  background-color: unset;
+  padding: 5px;
+}
+
+.swiper {
+  height: 100%;
+}
+
+.swiper-slide {
+  padding-top: 0px;
+  height: 100%;
+}
+
+.WEATHER {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  animation: rainbow infinite 50s;
+}
+
+.swiper-slide .LoadingMin {
+  width: 100%;
+  height: 50px;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}

@@ -1,0 +1,42 @@
+.Session {
+    position: relative;
+    cursor: pointer;
+    background-color: var(--any-body-background);
+    padding: 15px 5px;
+    height: auto;
+    width: 260px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Session img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.Session:hover {
+    background-color: #cccccc50;
+}
+
+.SessionRemove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    background-color: #cccccc80;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+}
+
+.SessionRemove img {
+    width: 17px;
+    height: 17px;
+    filter: invert(60%);
+}

@@ -1,0 +1,58 @@
+.Input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.Input-this {
+    background-color: #ffffff00;
+    color: var(--text-color);
+    outline: none;
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.Input-this::after {
+    content: attr(data-placeholder);
+}
+
+.ShowPass.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    border-radius: 50px;
+    background-color: #BFBFBF;
+    transform: rotate(45deg);
+}
+
+.Input-placeholder {
+    padding: 0px 5px;
+    color: #8f8f8f;
+    font-family: GT Light;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    position: absolute;
+    font-size: 12px;
+    top: -6px;
+    left: 15px;
+}
+
+.ShowPass {
+    cursor: pointer;
+    background: url('../../icons/eye.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 47px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--auth-input-border);
+    border-radius: 10px;
+}

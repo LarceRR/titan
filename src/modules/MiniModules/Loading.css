@@ -1,0 +1,45 @@
+.Loading {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button-background-color);
+    border-radius: 10px;
+}
+
+.LoadingMin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Loading img,.LoadingMin img {
+    filter: invert(0.5);
+    width: 30px;
+    height: 30px;
+    animation: spinning infinite 1.5s;
+}
+
+.Loading span {
+    color: gray;
+    clip-path: inset(0 1ch 0 0);
+    animation: l 1s steps(4) infinite;
+}
+
+@keyframes l {
+    to {
+      clip-path: inset(0 -1ch 0 0)
+    }
+  }
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

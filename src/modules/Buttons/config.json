@@ -1,0 +1,286 @@
+{
+    "buttons" : {
+        "room1" : {
+            "title":"Комната 1",
+            "btns": [
+                {
+                    "name": "Люстра",
+                    "id": "light",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "light.svg"
+                },
+                {
+                    "name": "Дополнительный свет",
+                    "id": "seclight",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "seclight.svg"
+                },
+                {
+                    "name": "Компьютер",
+                    "id": "pc",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "pc.svg"
+                },
+                {
+                    "name": "Телевизор",
+                    "id": "tv",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "tv.svg"
+                },
+                {
+                    "name": "Развлекательный режим",
+                    "id": "sex",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "sex.svg"
+                },
+                {
+                    "name": "Полить растения",
+                    "id": "flowers",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "flowers.svg"
+                },
+                {
+                    "name": "Кондиционер",
+                    "id": "cond",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "cond.svg"
+                },
+                {
+                    "name": "Подогрев полов",
+                    "id": "heatfloor",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "heatfloor.svg"
+                }
+            ]
+        },
+        "room2" : {
+            "title":"Комната 2",
+            "btns": [
+                {
+                    "name": "Люстра",
+                    "id": "light",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "light.svg"
+                },
+                {
+                    "name": "Дополнительный свет",
+                    "id": "seclight",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "seclight.svg"
+                },
+                {
+                    "name": "Компьютер",
+                    "id": "pc",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "pc.svg"
+                },
+                {
+                    "name": "Телевизор",
+                    "id": "tv",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "tv.svg"
+                },
+                {
+                    "name": "Развлекательный режим",
+                    "id": "sex",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "sex.svg"
+                },
+                {
+                    "name": "Полить растения",
+                    "id": "flowers",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "flowers.svg"
+                },
+                {
+                    "name": "Кондиционер",
+                    "id": "cond",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "cond.svg"
+                },
+                {
+                    "name": "Подогрев полов",
+                    "id": "heatfloor",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "heatfloor.svg"
+                }
+            ]
+        },
+        "kitchen" : {
+            "title":"Кухня",
+            "btns": [
+                {
+                    "name": "Люстра",
+                    "id": "light",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "light.svg"
+                },
+                {
+                    "name": "Дополнительный свет",
+                    "id": "seclight",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "seclight.svg"
+                },
+                {
+                    "name": "Чайник",
+                    "id": "teapot",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "teapot.svg"
+                },
+                {
+                    "name": "Телевизор",
+                    "id": "tv",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "tv.svg"
+                },
+                {
+                    "name": "Пополнить миску",
+                    "id": "petdish",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "petdish.svg"
+                },
+                {
+                    "name": "Подогрев полов",
+                    "id": "heatfloor",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "heatfloor.svg"
+                }
+            ]
+        },
+        "bathroom" : {
+            "title":"Ванна",
+            "btns": [
+                {
+                    "name": "Люстра",
+                    "id": "light",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "light.svg"
+                },
+                {
+                    "name": "Вытяжка",
+                    "id": "bathhair",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "hair.svg"
+                },
+                {
+                    "name": "Наполнить ванну",
+                    "id": "bathfill",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "bath.svg"
+                },
+                {
+                    "name": "Стиральная машина",
+                    "id": "wm",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "wm.svg"
+                },
+                {
+                    "name": "Подогрев полов",
+                    "id": "heatfloor",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "heatfloor.svg"
+                }
+            ]
+        },
+        "street" : {
+            "title":"Улица",
+            "btns": [
+                {
+                    "name": "Уличное освещение",
+                    "id": "light",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "seclight.svg"
+                },
+                {
+                    "name": "Автополив растений",
+                    "id": "autoflowers",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "tree.svg"
+                },
+                {
+                    "name": "Настройка бассейна",
+                    "id": "pool",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "swim.svg"
+                },
+                {
+                    "name": "Настройка беседки",
+                    "id": "sumhouse",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "sumhouse.svg"
+                },
+                {
+                    "name": "Подогрев полов",
+                    "id": "heatfloor",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "heatfloor.svg"
+                }
+            ]
+        },
+        "globalfunction" : {
+            "title":"Глобальные функции",
+            "btns": [
+                {
+                    "name": "Отключить воду",
+                    "id": "water",
+                    "editable": true,
+                    "expandable": false,
+                    "icon": "drop-slash.svg"
+                },
+                {
+                    "name": "Отключить электричество",
+                    "id": "light",
+                    "editable": true,
+                    "expandable": false,
+                    "icon": "light-slash.svg"
+                },
+                {
+                    "name": "Режим вечеринки",
+                    "id": "party",
+                    "editable": false,
+                    "expandable": true,
+                    "icon": "party.svg"
+                },
+                {
+                    "name": "Тихий режим",
+                    "id": "silent-mode",
+                    "editable": false,
+                    "expandable": false,
+                    "icon": "sound-slash.svg"
+                }
+            ]
+        }
+    }
+}

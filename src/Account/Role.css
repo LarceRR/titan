@@ -1,0 +1,56 @@
+
+.SessionAvatarContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.SessionAvatarContainer > span {
+    font-size: 16px;
+    font-family: GT Light;
+}
+
+.Role {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: -7px;
+    right: -7px;
+    height: auto;
+    width: auto;
+}
+
+.role {
+    font-family: GT Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 25px;
+    height: 24px;
+}
+
+.guest {
+    color: #87B5FF;
+    background-color: #4E74B0;
+    border: 2px solid #87B5FF;
+}
+
+.admin {
+    color: #FF6666;
+    background-color: #B44C4C;
+    border: 2px solid #FF6666;
+}
+
+.panel {
+    color: #A8FF7A;
+    background-color: #6EB14B;
+    border: 2px solid #A8FF7A;
+}
+
+.unknown {
+    color: #E394FF;
+    background-color: #964BB1;
+    border: 2px solid #E394FF;
+}

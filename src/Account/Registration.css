@@ -1,0 +1,40 @@
+.Login-button img {
+    filter: invert(1);
+    width: 25px;
+    height: 25px;
+    animation: spinning infinite 0.9s linear;
+}
+
+.UnderError {
+    background: #ff5050;
+    padding: 7px 25px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: GT Regular;
+    bottom: 0px;
+    opacity: 0;
+    position: absolute;
+    color: white;
+    animation: slideup 0.3s cubic-bezier(0.92, 0.01, 1, 1) forwards;
+}
+
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        bottom: 0px;
+        
+    }
+    100% {
+        opacity: 1;
+        bottom: 20px;
+    }
+}
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

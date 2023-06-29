@@ -1,0 +1,433 @@
+@media all and (max-width: 1200px) {
+  .Buttons {
+    width: 100%!important;
+    margin-top: 0px!important;
+  }
+
+  .Btn {
+    width: 100px!important;
+    height: 100px!important;
+  }
+
+  .Btn .btn-name::after {
+    right: 10px!important;
+    width: 60px!important;
+    height: 100%;
+  }
+
+  .BtnContainer {
+    justify-content: center!important;
+  }
+
+  .AddButton {
+    width: 100px!important;
+    height: 100px!important;
+  }
+
+  .btn-image {
+    height: 28px!important;
+    width: 28px!important;
+  }
+
+  .btn-state {
+    font-size: 18px!important;
+  }
+
+  .Btn .btn-name {
+    font-size: 14px!important;
+  }
+
+  .expandable {
+    width: 30px!important;
+    height: 30px!important;
+  }
+
+  .BtnImg {
+    background-color: var(--main-button-color);
+    width: 30px!important;
+    height: 30px!important;
+  }
+}
+
+.Buttons {
+  gap: 50px;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 100%;
+  width: 94%;
+}
+
+.BtnImg {
+  background-color: var(--main-button-color);
+  width: 35px;
+  height: 35px;
+}
+
+.PlaceStatBtnImg {
+  background-color: var(--place-stat-icon);
+  width: 22px;
+  height: 22px;
+}
+
+.AdditionalEditor-body {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.aded-item-wrap {
+  align-items: flex-start;
+  gap: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aded-button {
+  position: relative;
+  width: 52px;
+  height: 28px;
+  background-color: #e2e2e2;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.aded-button::after {
+  content: "On Off";
+  position: absolute;
+  display: flex;
+  top: 5px;
+  font-size: 14px;
+  left: 3px;
+}
+
+.aded-button::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50px;
+  width: 22px;
+  height: 22px;
+  background-color: rgb(167, 167, 167);
+  z-index: 1;
+}
+
+.aded-button.active::before {
+  left: 26px;
+  background-color: rgb(0, 216, 0);
+}
+
+.aded-color .color-picker {
+  width: 60px;
+  height: 25px;
+  background-color: #ff6b09;
+  border-radius: 50px;
+}
+
+.brightSlider {
+  width: 100%;
+  position: relative;
+}
+
+.brightSlider-line {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #555555;
+  height: 2px;
+}
+
+.aded-model {
+  width: 100%;
+  text-align: right;
+  font-size: 12px;
+  opacity: .5;
+}
+
+.brightSlider-circle {
+  content: '';
+  position: absolute;
+  width: 20px;
+  top: -10px;
+  left: 180px;
+  border-radius: 50%;
+  background-color: #272727;
+  height: 20px;
+  z-index: 1;
+}
+
+.aded-animation select {
+  color: black;
+  padding: 3px;
+  background-color: #fff;
+  width: auto;
+  font-size: 15px;
+  border-radius: 50px;
+}
+
+.ADED-body-wrapper {
+  display: flex;
+}
+
+.aded-color, .aded-animation, .aded-brightslider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.AddEditor-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.BtnFC-title {
+  color: var(--text-color);
+  font-size: 30px;
+  font-family: GT Bold;
+}
+
+.BtnContainer {
+  height: auto;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: auto;
+  max-width: 380px;
+  align-content: flex-start;
+  flex-grow: 1;
+  flex-flow: row wrap;
+}
+
+.btn-state {
+  transition: 0.3s ease-in-out;
+  color: #919394;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.AddButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--button-background-color);
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.AddingBtn {
+  padding: 20px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: #00000060;
+  color: rgb(255, 255, 255);
+}
+
+.AddBtnClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.AddBtnBody {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 650px;
+  height: 350px;
+  padding: 10px;
+  background-color: #2D3538;
+}
+
+.AddBtnClose img {
+  width: 40px;
+  height: 40px;
+}
+
+.AddButton::after {
+  transition: 0.1s ease-in-out;
+  position: absolute;
+  content: "";
+  width: 4px;
+  border-radius: 50px;
+  height: 50px;
+  background-color: var(--button-background-color);
+}
+
+.AddButton::before {
+  transition: 0.1s ease-in-out;
+  position: absolute;
+  content: "";
+  width: 50px;
+  border-radius: 50px;
+  height: 4px;
+  background-color: var(--button-background-color);
+}
+
+.BtnFullContainer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Btn {
+  background-color: var(--button-background-color);
+  border: var(--button-border);
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: 
+  "a" "b" "c";
+  color: #919394;
+  position: relative;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.Btn.active {
+  transition: 0.1s ease-in;
+  background-color: var(--button-active-background-color);
+}
+
+.btn-image {
+  grid-area: a;
+  color: #596B9B;
+  height: 35px;
+  width: 35px;
+}
+
+.expandable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--button-state-circle-border);
+  height: 35px;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.expandable.active {
+  border: 2px solid #59cf5f;
+}
+
+.Btn.active .btn-name {
+  transition: 0.1s ease-in;
+  position: relative;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  grid-area: b;
+}
+
+.BtnFC-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place-statistic {
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--button-background-color);
+}
+
+.place-statistic span {
+  color: var(--text-color);
+}
+
+.place-statistic-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.PlaceStatistic {
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 42px;
+  top: 0px;
+  right: 0;
+  position: absolute;
+  width: 380px;
+  height: 305px;
+  color: var(--text-color);
+  background-color: var(--button-background-color);
+  box-shadow: 0px 3px 20px 0px #000000a3;
+}
+
+.place-statistic span {
+  font-family: GT Thin;
+  font-size: 17px;
+  opacity: .6;
+}
+
+.place-statistic img {
+  opacity: .4;
+  width: 20px;
+  height: 20px;
+  filter: invert(0.5);
+}
+
+.place-statistic div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.meActive {
+  color: white;
+  border: 1px solid #5C6A98!important;
+  background-color: #5C6A98;
+}
+
+.Btn .btn-name {
+  font-size: 16px;
+  transition: 0.3s ease-in;
+  position: relative;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  grid-area: b;
+}

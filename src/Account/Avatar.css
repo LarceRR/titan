@@ -1,0 +1,55 @@
+.Avatar-body {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Avatar {
+    position: relative;
+    cursor: pointer;
+    border: var(--avatar-select-button-border);
+    border-radius: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Avatar img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.Avatar-not-set {
+    mask-image: url('../icons/image.svg');
+    mask-size: 40%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    background-color: var(--avatar-select-button-color);
+    border-radius: 50%;
+    position: relative;
+}
+
+.Avatar-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Avatar-set img{
+    filter: unset;
+}
+
+.Avatar-not-set::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ccc;
+}

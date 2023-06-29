@@ -1,0 +1,197 @@
+@media all and (max-width: 1200px) {
+    .readsChart {
+      padding: unset!important;
+    }
+    .ChartReads, .logReads {
+        max-width: 100%!important;
+    }
+    .logReads td.gridjs-td {
+        text-align: center;
+        font-size: 13px!important;
+    }
+  }
+
+.logstatus {
+    color: white;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+.logstatus.off {
+    background-color: red;
+}
+.logstatus.on {
+    background-color: green;
+}
+.logdate {
+    display: flex;
+    flex-direction: column;
+}
+.logdate span:nth-child(1) {
+    color: gray;
+}
+
+.Mui-TableHeadCell-Content-Actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gridjs-loading-bar {
+    display: none;
+}
+
+.gridjs-td {
+    position: relative;
+}
+
+.logReads td.gridjs-td {
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.gridjs-pages button {
+    padding: 5px 10px!important;
+    background-color: var(--main-container-background)!important;
+    border: var(--grid-border)!important;
+    color: var(--text-color)!important;
+}
+
+.gridjs-pages .gridjs-spread {
+    background-color: unset!important;
+    border: unset!important;
+    position: relative;
+}
+
+.logReads .gridjs-pages .gridjs-spread::after {
+    content: "_";
+    position: absolute;
+    background-color: var(--grid-header-bg-color);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.change_owner img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.loading-wrapper {
+    padding: 3px 0px;
+}
+
+.readsChart {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 3px 0px;
+}
+
+.readsChart div {
+    flex: 1 0 auto
+}
+
+.gridjs-pagination {
+    gap: 10px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ChartReads, .logReads {
+    width: auto;
+    max-width: 580px;
+    height: 480px;
+}
+
+.GridReads {
+    max-width: 550px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gridjs-search {
+    width: 100%;
+    float: unset;
+}
+
+.GridReadsButtons {
+    display: flex;
+    gap: 10px;
+}
+
+input.gridjs-input {
+    border: var(--grid-border)!important;
+    color: var(--text-color)!important;
+    background-color: var(--grid-background-color)!important;
+}
+
+.gridjs-pagination .gridjs-pages button:disabled, .gridjs-pagination .gridjs-pages button[disabled], .gridjs-pagination .gridjs-pages button:hover:disabled {
+    background-color: var(--navigator-background)!important;
+    color: var(--text-color)!important;
+    border: var(--grid-border)!important;
+}
+
+.gridjs-pagination {
+    color: var(--text-color)!important;
+}
+
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage {
+    background-color: var(--grid-pages-background-color)!important;
+    color: var(--text-color)!important;
+    border: var(--grid-border)!important;
+}
+
+th.gridjs-th {
+    border: var(--grid-border)!important;
+    color: var(--text-color)!important;
+    background-color: var(--grid-header-bg-color)!important;
+}
+
+.gridjs-container {
+    border-radius: 10px;
+}
+
+th.gridjs-th div {
+    font-family: GT Thin;
+    opacity: 0.5;
+}
+
+td.gridjs-td {
+    border: var(--grid-border)!important;
+    color: var(--text-color)!important;
+    background-color: var(--grid-header-bg-color)!important;
+}
+
+.gridjs-footer {
+    border: var(--grid-border)!important;
+    color: var(--text-color)!important;
+    background-color: var(--grid-header-bg-color)!important;
+}
+
+.gridjs-container {
+    padding: 0px!important;
+}
+
+.GridReadsButtons button {
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--grid-header-bg-color)!important;
+    width: 40px;
+    height: 40px;
+}
+
+.GridReadsButtons button img {
+    filter: var(--grid-buttons);
+    width: 50%;
+    height: 50%;
+}
+
+.gridjs-search-input {
+    width: 100%!important;
+}

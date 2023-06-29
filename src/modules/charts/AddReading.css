@@ -1,0 +1,50 @@
+.AddReading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.AddReading-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.AddReading-inputs-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AddReading-button-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.AddReading-button-wrap button {
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: unset;
+    background-color: unset;
+}
+
+.AddReading-button-wrap button img {
+    width: 20px;
+    height: 20px;
+}
+
+.AddReading-input-cont input {
+    font-size: 17px;
+}
+
+.AddReading-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+}

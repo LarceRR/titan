@@ -1,0 +1,291 @@
+@media all and (max-width: 1434px) {
+    .Session {
+        width: auto!important;
+        background-color: unset!important;
+        padding: 0px!important;
+        border: unset!important;
+    }
+    .Session span {
+        display: none;
+    }
+    .Login-title {
+        display: none!important;
+    }
+    .Login-last-sessions-title {
+        display: none!important;
+    }
+    .Login-sessions {
+        width: auto!important;
+    }
+    .Login-body {
+        flex-direction: column-reverse!important;
+    }
+    .Login-last-sessions {
+        max-width: unset!important;
+        padding: 0px!important;
+        background-color: unset!important;
+    }
+    .register-title {
+        display: none!important;
+    }
+    .Login-register-body {
+        padding: 0px!important;
+        justify-content: center!important;
+        background-color: unset!important;
+        border: unset!important;
+    }
+    .Login-left-body {
+        flex-direction: column-reverse!important;
+        border: unset!important;
+        gap: 10px!important;
+    }
+    .register-button {
+        text-align: center;
+        color: var(--text-color)!important;
+        width: 275px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #50b85a00!important;
+        border: 1px solid #3E9446;
+        border-radius: 5px!important;
+    }
+    .Login-white-body {
+        border-radius: 0px!important;
+        padding: 10px 10px!important;
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .Login-right-body {
+        border: unset!important;
+        padding: 0px!important;
+    }
+    .Login-inputs {
+        width: 350px!important;
+    }
+    .Login-body {
+        gap: 10px!important;
+    }
+    .register-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 15px;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+}
+
+.Login {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Login-white-body {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: var(--any-body-background);
+}
+
+.Login-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Login-last-sessions-title {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.Login-last-sessions-title span:nth-child(1) {
+    font-size: 18px;
+}
+
+.Login-last-sessions-title span:nth-child(2) {
+    font-size: 16px;
+    font-family: GT Thin;
+    color: #878787;
+}
+
+.Login-sessions-body {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Login-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Login-inputs span {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.register-logo {
+    filter: var(--logo);
+}
+
+.Login-button {
+    text-align: center;
+    color: white;
+    width: 275px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #50B85A;
+    border: 1px solid #3E9446;
+    border-radius: 5px;
+}
+
+.Login-log-input {
+    width: 100%!important;
+}
+
+.Login-PassInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Login-last-sessions {
+    color: var(--text-color);
+    max-width: 940px;
+    border-radius: 10px;
+    background-color: var(--any-body-background);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.Login-sessions {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.Login-register-body {
+    border-radius: 10px;
+    background-color: var(--any-body-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: auto;
+    padding: 20px 30px;
+}
+
+.register-button {
+    color: white;
+    padding: 13px 35px;
+    background: #50B85A;
+    border: 1px solid #3E9446;
+    border-radius: 9px;
+}
+
+.Login-right-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: var(--grid-border);
+    background-color: var(--auth-input-body);
+    width: auto;
+    padding: 20px 30px;
+}
+
+.register-title span {
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.register-title span:nth-child(1) {
+    width: 400px;
+    font-family: GT Thin;
+    color: #5a5a5a;
+}
+
+.register-title span:nth-child(2) {
+    width: 400px;
+    font-family: GT Thin;
+    color: #787878;
+}
+
+.register-title span:nth-child(2) span {
+    font-family: GT Regular;
+    color: #474747;
+}
+
+.register-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-left-body {
+    border-radius: 10px;
+    border: var(--grid-border);
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.Login-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Login-title h1 {
+    font-family: GT Bold;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.Login-title h2 span {
+    color: var(--text-color);
+}
+
+.Login-title h2 {
+    font-family: GT Thin;
+    text-align: center;
+    font-size: 20px;
+    width: 590px;
+    color: #6F6F6F;
+}

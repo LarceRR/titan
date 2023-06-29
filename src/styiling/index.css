@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'GT Bold';
+  src: url('../fonts/f401f9acc8f418338b8eee39b88f34ce.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'GT Regular';
+  src: url('../fonts/79d88914cf4baccc8a2a71c0d06cfaf7.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'GT Thin';
+  src: url('../fonts/ea5d24165f5039cb579d9b36833cb541.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'GT Light';
+  src: url('../fonts/a5772fe4b65e742da828f2a8141f21bb.ttf');
+  font-weight: 100;
+}
+
+* {
+  font-family: GT Regular;
+  transition: 0.08s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html[data-theme='dark'] {
+  --system-info-wrapper-border: 1px solid #222;
+  --system-info-wrapper-background: #0f1214;
+  --system-info-wrapper-item-background: #232B30;
+  --avatar-select-button-color: #2c363a;
+  --avatar-select-button-border: 1px solid #2c363a;
+  --logo: invert(1);
+  --auth-input-border: 1px solid #3f3f3f;
+  --auth-input-body: #0e1112;
+  --any-body-background: #0e1112;
+  --grid-buttons: invert(1);
+  --grid-border: 1px solid #272e33;
+  --grid-header-bg-color: #2D3538;
+  --grid-background-color: #2D3538;
+  --grid-pages-background-color: #202629;
+  --nav-navigator-border: 1px solid #272e33;
+  --button-state-circle-border: 2px solid #242729;
+  --main-button-color: #5C6A98;
+  --place-stat-icon: #7f7f7f;
+  --navigator-buttons-color: #fff;
+  --navigator-title-opacity: 0.5;
+  --navigator-background: rgba(35, 43, 48, 0.58);
+  --main-container-background: #171C1F;
+  --text-color: #ffffff;
+  --button-background-color: #2D3538;
+  --button-active-background-color: #fff;
+  --button-border: 1px solid #424242;
+  --button-shadow-line: linear-gradient(90deg, #0000, #2D3538);
+  --button-border-color: #ba8fc2;
+
+  --background-color: #292929;
+  --icon-color: #ba8fc2;
+}
+
+html[data-theme='light'] {
+  --system-info-wrapper-border: 1px solid #dce1e6;
+  --system-info-wrapper-background: #fff;
+  --system-info-wrapper-item-background: #fff;
+  --avatar-select-button-color: #b6b6b6;
+  --avatar-select-button-border: 1px solid #b1b1b1;
+  --logo: invert(0);
+  --auth-input-border: 1px solid #dfdfdf;
+  --auth-input-body: #fff;
+  --any-body-background: #fff;
+  --grid-buttons: invert(0);
+  --grid-border: 1px solid #dce1e6;
+  --grid-header-bg-color: #fff;
+  --grid-background-color: #fff;
+  --grid-pages-background-color: #fff;
+  --nav-navigator-border: 1px solid #dce1e6;
+  --button-state-circle-border: 2px solid #a9b8c3;
+  --main-button-color: #8696c9;
+  --place-stat-icon: #909090;
+  --navigator-buttons-color: #8696c9;
+  --navigator-title-opacity: 0.9;
+  --navigator-background: #fff;
+  --main-container-background: #EDEEF0;
+  --text-color: #464646;
+  --button-background-color: #fff;
+  --button-active-background-color: #2D3538;
+  --button-border: 1px solid #dce1e6;
+  --button-shadow-line: linear-gradient(90deg, #0000, #DBDCDF);
+  --button-border-color: #4e005c;
+
+  --background-color: #dfdfdf;
+  --icon-color: #4e005c;
+}
