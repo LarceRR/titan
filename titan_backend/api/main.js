@@ -33,12 +33,6 @@ const getMaxAgeDay = (days) => {
     return (1000 * 60 * 60) * 3 * days * 24
 }
 
-// CHECK USER JWT
-// function checkJWT(req,res,next) {
-//     next()
-// }
-// CHECK USER JWT
-
 // CORS
 const allowedOrigins = ['http://192.168.1.187:3000','http://localhost:3000'];
 app.use(cors({
@@ -56,14 +50,6 @@ app.use(cors({
 }));
 // CORS
 
-// MIDDLEWARES
-// function tlog (req, res, next) {
-//     console.log('test');
-//     next()
-// }
-
-// app.use(checkJWT)
-// app.use(express.json())
 app.use(express.static(__dirname))
 app.use(cookieParser())
 app.use(express.json({limit: '50mb'}));
